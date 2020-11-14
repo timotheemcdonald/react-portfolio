@@ -9,18 +9,19 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Home from './components/Home'
 
-const CenterDiv = styled.div`
+
+const CenterTitle = styled.div`
 display:flex;
-justify-content:space-around;
-align-items:center;
-margin: auto;
-padding:10px;
-margin-top:2%;
-`
+justify-content:center;
+margin-top: 0.50%;
+margin-bottom: 0.50%;`
 
 function App() {
   return (
     <div className="App">
+      <CenterTitle>
+     <h1>Tim McDonald</h1>
+     </CenterTitle>
       <header className="App-header">
    
        
@@ -33,9 +34,7 @@ function App() {
       
       </header>
 
-<CenterDiv>
-     <h1>Tim McDonald</h1>
-     </CenterDiv>
+
 
     <div>
       <Switch>

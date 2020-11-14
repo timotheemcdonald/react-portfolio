@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Roboto&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -33,7 +33,6 @@ body {
   line-height: 1;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-
 }
 ol, ul {
 	list-style: none;
@@ -52,43 +51,58 @@ table {
 }
 
 h1, h2, h3 {
-  font-family: 'Linden Hill', serif;
-  color: #0b6a96;
+  font-family: 'Lora', serif;
+  color: #1d3557;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 header a {
   text-decoration:none;
-  color: #0b6a96;
-  font-family: 'Linden Hill', serif;
+  color: ivory;
+  font-family: 'Lora', serif;
   font-size: 2rem;
+}
+
+header a:hover{
+  color:#e63946;
 }
 
 
 .hl {
-    border-bottom: 3px solid #0b6a96;
+    border-bottom: 3px solid #1d3557;
     width: 75%
 }
 
 header {
-  border-bottom: 3px solid #0b6a96;
-  width: 95%;
+  border-bottom: 3px solid #1d3557;
+  border-top: 3px solid #1d3557;
+  background-color:#457b9d;
+  width: 100%;
+  color:ivory;
   min-height:10vh;
 display:flex;
 justify-content:space-around;
 align-items:center;
-margin: auto;
 }
 
 footer {
-  border-top: 3px solid #0b6a96;
-  width: 95%;
+  border-bottom: 3px solid #1d3557;
+  border-top: 3px solid #1d3557;
+  background-color:#457b9d;
+  width: 100%;
   min-height:10vh;
+  color:ivory;
 display:flex;
 justify-content:space-around;
 align-items:center;
-margin: auto;
+margin-top: auto;
+}
+
+.App {
+	height:100vh;
+	display:flex;
+	flex-direction:column;
 }
