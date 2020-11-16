@@ -16,12 +16,15 @@ justify-content:center;
 margin-top: 0.50%;
 margin-bottom: 0.50%;
 `
-
+const EmojiSpan = styled.span`
+margin-top: 0.25%;
+margin-bottom: 0.50%;
+`
 function App() {
   return (
     <div className="App">
       <CenterTitle>
-     <h1>Tim McDonald</h1>
+     <h1>Tim McDonald</h1><EmojiSpan><h2>🌱</h2></EmojiSpan>
      </CenterTitle>
       <header className="App-header">
    
