@@ -6,23 +6,33 @@ const CenterDiv = styled.div`
 display:flex;
 justify-content:space-around;
 align-items:center;
-margin: auto;
-padding:2%;
-margin-top:2.5%;
 border-bottom: .35rem solid #ced4da;
-margin-left:20%; 
-margin-right:20%;
 background-color:#f8f9fa;
+padding:2%;
+margin: auto;
+max-width:60%;
+margin-top:2.5%;
 `
+
+const CenterTitle = styled.div`
+display:flex;
+justify-content:center;
+margin-top: 0.50%;
+margin-bottom: 0.50%;
+`
+
 
 
 function Home(){
     const history = useHistory()
 
     return(
+        <div>
+            <CenterDiv><h2>Welcome</h2></CenterDiv>
         <CenterDiv>
         My name is Tim McDonald and I am a full stack web developer open to employment opportunities. 
           </CenterDiv>
+          </div>
     )
 }
 
