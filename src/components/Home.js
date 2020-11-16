@@ -9,11 +9,11 @@ align-items:center;
 margin: auto;
 padding:2%;
 margin-top:2.5%;
-border: 3px solid #7f5539;
+border: 3px solid #b08968;
 margin-left:20%; 
 margin-right:20%;
 border-radius:10px;
-background-color:#ede0d4;
+background-color:#f7f1eb;
 `
 
 
