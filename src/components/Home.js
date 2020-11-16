@@ -13,16 +13,10 @@ border: 3px solid #1d3557;
 margin-left:20%; 
 margin-right:20%;
 border-radius:10px;
-background-color:#457b9d;
-color:ivory;
+background-color:white;
+
 `
 
-// //border: 3px solid #0b6a96;
-// margin-left:20%; 
-// margin-right:20%;
-// border-radius:10px;
-// background-color:#3784a6;
-// color:ivory;//
 
 function Home(){
     const history = useHistory()
