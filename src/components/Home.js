@@ -9,7 +9,7 @@ align-items:center;
 margin: auto;
 padding:2%;
 margin-top:2.5%;
-border-bottom: 3px solid #ced4da;
+border-bottom: .35rem solid #ced4da;
 margin-left:20%; 
 margin-right:20%;
 background-color:#f8f9fa;

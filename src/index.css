@@ -63,7 +63,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.75rem;
   font-weight: 900;
 }
 
@@ -109,8 +109,8 @@ header a:hover::after {
 }
 
 header {
-  border-bottom: 3px solid #495057;
-  border-top: 3px solid #495057;
+  border-bottom: .25rem solid #495057;
+  border-top: .25rem solid #495057;
   background-color:#212529;
   width: 100%;
   min-height:10vh;
@@ -121,8 +121,8 @@ align-items:center;
 }
 
 footer {
-  border-bottom: 3px solid #495057;
-  border-top: 3px solid #495057;
+  border-bottom: .25rem solid #495057;
+  border-top: .25rem solid #495057;
   background-color:#212529;
   width: 100%;
   min-height:10vh;
