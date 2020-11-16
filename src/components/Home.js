@@ -13,6 +13,7 @@ border: 3px solid #7f5539;
 margin-left:20%; 
 margin-right:20%;
 border-radius:10px;
+background-color:#ede0d4;
 `
 
 

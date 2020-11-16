@@ -73,6 +73,9 @@ header a {
   position:relative;
 }
 
+header a:hover{
+  color:#5e3f2a;
+}
 
 header a::after{
   content:"";
