@@ -15,7 +15,7 @@ display:flex;
 justify-content:center;
 margin-top: 0.50%;
 margin-bottom: 0.50%;
-background-color:#e9ecef;`
+`
 
 function App() {
   return (
