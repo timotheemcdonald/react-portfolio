@@ -28,7 +28,7 @@ margin-top:1%;
 const LinkStyle = styled.a`
 color:black;
 background-color:white;
-border:2px solid black;
+border-bottom:2px solid black;
 padding: .25rem 1rem;
 text-decoration:none;
 margin-top:1rem;
