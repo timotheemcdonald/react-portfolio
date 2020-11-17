@@ -9,14 +9,21 @@ border-bottom: .35rem solid #ced4da;
 background-color:#f8f9fa;
 padding:2%;
 margin: auto;
-max-width:60%;
+max-width:55%;
 margin-top:2.5%;
 `
 
+const CenterTitle = styled.div`
+display:flex;
+justify-content:center;
+margin-top: 2.50%;
+margin-bottom: 0.50%;
+`
 
 function Contact(){
     return(
         <div>
+            <CenterTitle><h2>Contact</h2></CenterTitle>
             <CenterDiv><h2>Contact</h2></CenterDiv>
         </div>
     )
