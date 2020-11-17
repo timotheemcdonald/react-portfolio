@@ -103,11 +103,6 @@ header a:hover::after {
 }
 
 
-.hl {
-    border-bottom: 3px solid #495057;
-    width: 75%
-}
-
 header {
   border-bottom: .25rem solid #495057;
   border-top: .25rem solid #495057;
